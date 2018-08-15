@@ -183,7 +183,7 @@ describe "#display_board in 'lib/display_board.rb" do
       # and make a few simple edits to convert the previous example to this
       # example's situation.
       
-      board = ["O", "O", "O", "X", "X", "X", "X", "X", "X"] # This is not correct
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"] # This is not correct
 
       # Don't touch the following lines.
       output = capture_puts{ display_board(board) } if defined?(display_board)
